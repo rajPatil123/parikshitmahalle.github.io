@@ -1,0 +1,66 @@
+/** Variables */
+:root {
+    --primary: rgb(150, 3, 3);;
+    --secondary: #f5c7c7;
+    --font: Helvetica, Arial , sans-serif;
+}
+
+body {
+
+    font-family: var(--font);
+}
+hr {
+    background-color:var(--primary);
+}
+.footer {
+    background-color: var(--secondary);
+    color: var(--primary);
+    margin: 0px auto;
+    padding: 20px 0px; }
+.pm-nav {
+    color: var(--primary);
+    background-color: var(--secondary);
+}
+.pm-container {
+    width: 90%;
+    margin:auto;
+}
+.pm-nav a {
+    color: var(--primary);
+}
+.pm-nav a:hover {
+    color: var(--secondary);
+    background-color: #ffffff;
+}
+
+.jumbotron {
+    margin: 0px auto;
+    padding: 20px 70px;
+    background: #fcfafa;
+    color: #000000; 
+}
+.jumbotron h1 {
+    color: var(--primary);
+}
+
+.introduction {
+    padding: 1rem;
+}
+.intro-sub {
+    padding: 1rem;
+}
+.profile_{
+    color: var(--primary);
+}
+.intro-sub img {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.img_sinhgad{
+    width: 50%;
+    height: 50%;
+}
+.button_text_left{
+    text-align: left;
+}
